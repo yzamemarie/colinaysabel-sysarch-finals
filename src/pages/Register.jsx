@@ -22,7 +22,7 @@ export default function Register() {
           </div>
           <div className="flex flex-col items-center gap-4">
             <Link
-              to="/home"
+              to="/login"
               className="w-full text-center p-4 bg-[#6f5f90] text-white box-border rounded"
             >
               Signup

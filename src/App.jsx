@@ -4,7 +4,7 @@ import {
   createRoutesFromElements,
   RouterProvider
 } from 'react-router-dom'
-import Home from './pages/Home'
+import Landing from './pages/Landing'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import Welcome from './pages/Welcome'
@@ -12,7 +12,7 @@ import Welcome from './pages/Welcome'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/">
-      <Route index element={<Home />} />
+      <Route index element={<Landing />} />
       <Route path="login" element={<Login />} />
       <Route path="register" element={<Register />} />
       <Route path="welcome" element={<Welcome />} />

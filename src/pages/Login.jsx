@@ -13,10 +13,7 @@ export default function Login() {
             <ProfileInput placeholder="Enter your password" />
           </div>
           <div className="flex flex-col items-center gap-4">
-            <Link
-              to="/welcome"
-              className="w-full text-center p-4 bg-[#8a5082] text-white box-border rounded"
-            >
+            <Link to="/welcome" className="w-full text-center p-4 bg-[#8a5082] text-white box-border rounded">
               Login
             </Link>
             <span>
